@@ -79,6 +79,8 @@ target 'simple_physics_reanimated' do
 
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
+  pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
+
   target 'simple_physics_reanimatedTests' do
     inherit! :complete
     # Pods for testing
