@@ -77,6 +77,8 @@ target 'simple_physics_reanimated' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
   target 'simple_physics_reanimatedTests' do
     inherit! :complete
     # Pods for testing
